@@ -22,35 +22,14 @@ To get started with our Random Gallery website, follow these steps:
 3. Merge desired features into the main branch for a comprehensive view of the website.
 4. Deploy the main branch to your hosting platform of choice and start sharing the randomness with the world!
 
-# Contributors
+# Creators
 
-Arjun Singla
-Apurva Juneja
-Armaanpreet Singh
+Arjun Singla - Second Developer
+Apurva Juneja - Tester
+Armaanpreet Singh - First Developer
+
+# Future Scope
 
 # License
 
 This project is licensed under the ArSignla, see the LICENSE file for details.
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>README Table</title>
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  th {
-    background-color: #f2f2f2;
-  }
-</style>
-</head>
-<body>
