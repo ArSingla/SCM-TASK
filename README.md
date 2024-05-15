@@ -5,6 +5,7 @@ Welcome to the Random Gallery website, developed by our talented team! This repo
 # Versions
 
 - Random Gallery (1st Version of project)
+- Your studio (2nd version of project)
 
 # Features
 
