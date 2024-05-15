@@ -1,0 +1,194 @@
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        
+        .bg {
+          /* The image used */
+          background-image: url("aesthetic\ dark\ wallpaper.jpeg");
+        
+          /* Full height */
+          height: 100%; 
+        
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .container {
+            position: relative;
+            text-align:end;
+            color: white;
+        }
+        .bottom-left{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            width: 10px;
+        }
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+        .centered {
+            position: absolute;
+            top: 20%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            font-family: 'Kavivanar',cursive;
+            font-size: 200%;
+        }
+        .centered-text {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 100%;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Times New Roman', Times, serif;
+            color:white;
+
+        }
+
+                        /*Common features of selectiing buttons*/
+
+        .all-button,.Cars-button,.Asethetic-button,.Memories-button, .Humans-button,.Nature-button,.Shoes-button {
+        box-shadow: 5px 5px 16px rgba(255, 255, 255, 0.15);
+        margin-left: 4px;
+        background-color: transparent;
+        color: white;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor:pointer;
+        margin-left: 20px;
+        transition: box-shadow 0.15s;
+        font-size:medium;
+        transition: background-color 0.15s,
+        color 0.15s;
+        border-width: 1px;
+        font-family: 'Kavivanar',cursive;
+        text-decoration: none;
+        border: transparent;
+        transition: transform 0.3s ;
+      }
+
+
+
+
+      .Cars-button span {   
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      .Cars-button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+
+      .Cars-button:hover span {
+        padding-right:25px
+      }
+
+      .Cars-button:hover span:after {
+        opacity: 1;
+        right: 0 ;
+      }
+    
+      img { 
+        width: 100pxx;
+      }
+      body{
+        background-color: black;
+      }
+      .filterable_cards {
+        display: flex;
+        margin-top: 85px;
+      }
+      .content {
+      flex-basis: 200px;
+      background-color: white;
+      padding: 3px;
+      border-radius: 8px;
+      }
+      .content img {
+        width: 100%;
+      border-radius: 8px 8px 0 0;
+      }
+        
+
+
+
+
+
+
+      .all-button{
+            height: 32px;
+            width: 52px;
+
+      }
+      .Cars-button {
+        height: 32px;
+        width: 60px;
+      }    
+
+      .Asethetic-button {
+        height: 36px;
+        width: 90px;
+      }
+      .Humans-button {
+        height: 36px;
+        width: 70px;
+      }
+      .Nature-button {
+        height: 36px;
+        width: 70px;
+      }
+      .Shoes-button {
+        height: 36px;
+        width: 60px;
+          }
+
+      .Memories-button {
+        height: 36px;
+        width: 80px;
+          }
+
+                                /*All the Active-Butotns are here*/
+
+      .Cars-button:active,.Asethetic-button:active,.Memories-button:active,.all-button:active , .Humans-button:active,.Nature-button,.Shoes-button:active{
+        opacity: 0.7;
+      }
+
+      .centered-buttons {
+          position: absolute;
+          top: 80%;
+          left: 52%;
+          transform: translate(-50%,-50%);
+          width: 690px;
+        }
+        .Cars-button:hover,.Asethetic-button:hover,.Memories-button:hover,.all-button:hover,.Humans-button:hover,.Nature-button:hover,.Shoes-button:hover {
+            opacity: 0.85;
+            border-color:white;
+            color: aqua;
+            transform: translateY(-10px);
+        }
+X
+
+                /*Common feature of hover selecting buttons*/
+
