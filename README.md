@@ -2,6 +2,10 @@
 
 Welcome to the Random Gallery website, developed by our talented team! This repository contains the code for our website, showcasing a variety of features implemented across different branches. Additionally, some features have been merged into the main branch for easier access and integration.
 
+# Versions
+
+- Random Gallery (1st Version of project)
+
 # Features
 
 - Random Image Gallery: Explore a collection of random images curated for your viewing pleasure.
@@ -50,35 +54,3 @@ This project is licensed under the ArSignla, see the LICENSE file for details.
 </style>
 </head>
 <body>
-
-<h2>Sample Table</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-      <th>Column 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Data 1</td>
-      <td>Data 2</td>
-      <td>Data 3</td>
-    </tr>
-    <tr>
-      <td>Data 4</td>
-      <td>Data 5</td>
-      <td>Data 6</td>
-    </tr>
-    <tr>
-      <td>Data 7</td>
-      <td>Data 8</td>
-      <td>Data 9</td>
-    </tr>
-  </tbody>
-</table>
-
-</body>
-</html>
