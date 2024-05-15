@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="gallery.css" />
+  </head>
+  <body onload="myFunction()">
+    <div class="cursor"></div>
+    <div id="loading"></div>
+    <div id="nav">
+      <img src="logo.jpg" alt="" />
+      <div id="nav-part2">
+        <h4 class="magnet">HOME</h4>
+        <a href="Sharing.html"><h4 class="magnet">SHARING</h4></a>
+        <a href="Library.html"><h4 class="magnet">LIBRARY</h4></a>
+        <a href="#"><h4 class="magnet">CONTACT</h4></a>
+      </div>
+      <!-- <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >AR Singla
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="Edit-profile.html">
+              <i class="fa-regular fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-circle-question"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+        </ul>
+      </div> -->
+      <div id="nav-part3">
+        <div id="circle"></div>
+      </div>
+    </div>
+    <div id="purple"></div>
+    <div class="main">
+      <div class="page1">
+        <h1 class="hvr">Digitally Crafted</h1>
+        <h2 class="hvr">brand experiences.</h2>
+        <video autoplay muted loop src="Intro.mp4"></video>
+      </div>
+      <div class="page2">
+        <h1>We are Your Studio,</h1>
+        <div class="page2-container">
+          <div class="page2-left">
+            <h2>A CREATIVE COLLECTIVE MADE TO UNLOCK YOUR POTENTIAL</h2>
+          </div>
+          <div class="page2-right">
+            <p>
+              We weave together bold strategy and creative execution to produce
+              thought-provoking digital experiences. We take a highly
+              personalized approach to delivering branding, web design, and
+              content marketing solutions. Born in the Chandigharh - now serving
+              clients worldwide.
+            </p>
+            <button>About us</button>
+          </div>
+        </div>
+      </div>
+      <div class="page3">
+        <h1>Revisit the Moment</h1>
+        <div class="page3-part1">
+          <img
+            src="https://images.unsplash.com/photo-1697031336964-b2ac2f98f85f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
+            alt=""
+          />
+          <video
+            autoplay
+            loop
+            muted
+            src="https://player.vimeo.com/progressive_redirect/playback/856552122/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=06fa1cd2feb2dbe6a68da7c6612870628958f9d18bf1a98553cf953c4e060c3d"
+          ></video>
+        </div>
+        <div class="page3-part2">
+          <img
+            src="https://images.unsplash.com/photo-1697206447994-a187e5c8e17c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8aG1lbnZRaFVteE18fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+            alt=""
+          />
+          <video
+            autoplay
+            loop
+            muted
+            src="https://player.vimeo.com/progressive_redirect/playback/862135697/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=5d3a48f2539eb23c65ad862ddbe09223859e552b4dd68710d39b667d71ac6f01"
+          ></video>
+        </div>
+      </div>
+      <div class="page4">
+        <div class="elem">
+          <img
+            src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
+            alt=""
+          />
+          <div class="text-div">
+            <h1>Spotlight</h1>
+            <h1>Spotlight</h1>
+          </div>
+          <img
+            src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <img
+            src="https://images.unsplash.com/photo-1696948758504-9ae476b1a6c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="text-div">
+            <h1>Favourites</h1>
+            <h1>Favourites</h1>
+          </div>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1681140029775-36a657447c4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <img
+            src="https://images.unsplash.com/photo-1696813085603-8b56cff3e31c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI1fGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="text-div">
+            <h1>Utilities</h1>
+            <h1>Utilities</h1>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1696215123982-f6ced9faa34f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc1fGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="page6">
+        <video src="back.mp4" autoplay muted loop></video>
+        <div id="ftext">
+          <h1>think of future</h1>
+          <button>join the movement</button>
+        </div>
+      </div>
+      <div class="page5">
+        <h2>Mentions clients</h2>
+        <div
+          class="box"
+          data-image="https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60"
+        >
+          <h3>Krishn</h3>
+          <h4>2021</h4>
+        </div>
+        <div
+          class="box"
+          data-image="https://images.unsplash.com/photo-1698833994589-605fada9de5e?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4NHx8fGVufDB8fHx8fA%3D%3D"
+        >
+          <h3>Abhinav Gupta</h3>
+          <h4>2021</h4>
+        </div>
+        <div
+          class="box"
+          data-image="https://plus.unsplash.com/premium_photo-1670590820751-a3301c918dce?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8fA%3D%3D"
+        >
+          <h3>Anchit</h3>
+          <h4>2021</h4>
+        </div>
+        <div
+          class="box"
+          data-image="https://images.unsplash.com/photo-1698778873712-fcd8203f536b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTd8fHxlbnwwfHx8fHw%3D"
+        >
+          <h3>Abhinav verma</h3>
+          <h4>2021</h4>
+        </div>
+        <div
+          class="box"
+          data-image="https://images.unsplash.com/photo-1699088851470-4f0e05d4a485?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D"
+        >
+          <h3>Gracy</h3>
+          <h4>2021</h4>
+        </div>
+        <div
+          class="box"
+          data-image="https://plus.unsplash.com/premium_photo-1670590820777-3b03f589cb89?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5NXx8fGVufDB8fHx8fA%3D%3D"
+        >
+          <h3>Garvita</h3>
+          <h4>2021</h4>
+        </div>
+      </div>
+      <footer>
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+          <li>
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <p>©2021 Your Studio Photography | All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <script>
+      var preloader = document.getElementById("loading");
+      function myFunction() {
+        preloader.style.display = "none";
+      }
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
+    <script src="gallery.js"></script>
+  </body>
+</html>
